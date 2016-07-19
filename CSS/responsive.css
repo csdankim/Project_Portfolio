@@ -42,11 +42,11 @@
 	}
 
 	.title-logo {
-		width: 50%;
+		width: 20%;
 	}
 
 	.title {
-		width: 50%;
+		width: 80%;
 		text-align: right;
 		text-transform: uppercase;
 		vertical-align: top;
@@ -90,8 +90,15 @@
 	}
 
 	h1{
-		/*font-size: 3em;*/
+		font-size: 50px;
 		margin-bottom: 0;
 		margin-top: 12px;
 	}
+	
+	.title > h3 {
+		font-size: 20px;
+	}
+
+
+
 }
