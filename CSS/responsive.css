@@ -26,11 +26,6 @@
 		box-sizing: border-box;
 	}
 
-	hr {
-		color: #7d97ad;
-		margin: 2em 0 2em 0;
-	}
-
 	header, section, footer, hr, .title2 {
 		display: flex;
 		flex-wrap: wrap;
@@ -45,11 +40,17 @@
 		width: 20%;
 	}
 
+	svg {
+		margin-top: 8px;
+		vertical-align: top;
+	}
+
 	.title {
 		width: 80%;
 		text-align: right;
 		text-transform: uppercase;
 		vertical-align: top;
+		margin-top: 0;
 	}
 	
 	.featured {
@@ -83,7 +84,7 @@
 }
 
 @media screen and (min-width: 800px) {
-	header, section, footer, hr, .title2 {
+	header, section, footer {
 		max-width: 1140px;
 		margin-left: auto;
 		margin-right: auto;
@@ -92,7 +93,7 @@
 	h1{
 		font-size: 50px;
 		margin-bottom: 0;
-		margin-top: 12px;
+		margin-top: 0;
 	}
 	
 	.title > h3 {
