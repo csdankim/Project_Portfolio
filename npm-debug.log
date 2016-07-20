@@ -1,0 +1,843 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-resize-crop' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/DanKim/Documents/build_porfolio/Project_Portfolio/package.json
+5 warn package.json portfolio@1.0.0 No description
+6 warn package.json portfolio@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt/package.json
+8 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-contrib-clean/package.json
+9 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-contrib-copy/package.json
+10 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-mkdir/package.json
+11 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/package.json
+12 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-responsive-images/package.json
+13 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp/package.json
+14 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-clean-css/package.json
+15 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-rename/package.json
+16 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-uglify/package.json
+17 verbose installManyTop reading scoped package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/npm-debug.log/package.json
+18 info package.json grunt-responsive-images@0.1.9 No license field.
+19 info package.json grunt-mkdir@1.0.0 No license field.
+20 info package.json gulp-rename@1.2.2 No license field.
+21 info package.json grunt-resize-crop@0.0.1 No license field.
+22 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/package.json
+23 verbose install grunt-resize-crop is installed as 0.0.1
+24 silly cache add args [ 'grunt-resize-crop', null ]
+25 verbose cache add spec grunt-resize-crop
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'grunt-resize-crop',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'grunt-resize-crop',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: 'latest',
+26 silly cache add   type: 'tag' }
+27 silly addNamed grunt-resize-crop@latest
+28 verbose addNamed "latest" is being treated as a dist-tag for grunt-resize-crop
+29 info addNameTag [ 'grunt-resize-crop', 'latest' ]
+30 silly mapToRegistry name grunt-resize-crop
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'grunt-resize-crop',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   name: 'grunt-resize-crop',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/grunt-resize-crop
+35 verbose addNameTag registry:https://registry.npmjs.org/grunt-resize-crop not in flight; fetching
+36 verbose request uri https://registry.npmjs.org/grunt-resize-crop
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 17:12:53
+39 verbose request id 782f79c8387acb31
+40 verbose etag "5N9AR0DT7461HCMG139HB5J45"
+41 http request GET https://registry.npmjs.org/grunt-resize-crop
+42 http 304 https://registry.npmjs.org/grunt-resize-crop
+43 verbose headers { date: 'Wed, 20 Jul 2016 08:12:54 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   etag: '"5N9AR0DT7461HCMG139HB5J45"',
+43 verbose headers   age: '49',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+43 verbose headers   'x-cache': 'HIT',
+43 verbose headers   'x-cache-hits': '1',
+43 verbose headers   'x-timer': 'S1469002374.677248,VS0,VE0',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Wed, 20 Jul 2016 08:12:54 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     etag: '"5N9AR0DT7461HCMG139HB5J45"',
+44 silly get     age: '49',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-nrt6125-NRT',
+44 silly get     'x-cache': 'HIT',
+44 silly get     'x-cache-hits': '1',
+44 silly get     'x-timer': 'S1469002374.677248,VS0,VE0',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose etag https://registry.npmjs.org/grunt-resize-crop from cache
+46 verbose get saving grunt-resize-crop to /Users/DanKim/.npm/registry.npmjs.org/grunt-resize-crop/.cache.json
+47 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+48 silly addNameTag next cb for grunt-resize-crop with tag latest
+49 silly addNamed grunt-resize-crop@0.0.1
+50 verbose addNamed "0.0.1" is a plain semver version for grunt-resize-crop
+51 silly cache afterAdd grunt-resize-crop@0.0.1
+52 verbose afterAdd /Users/DanKim/.npm/grunt-resize-crop/0.0.1/package/package.json not in flight; writing
+53 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+54 verbose afterAdd /Users/DanKim/.npm/grunt-resize-crop/0.0.1/package/package.json written
+55 silly install resolved [ { name: 'grunt-resize-crop',
+55 silly install resolved     description: 'Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.',
+55 silly install resolved     version: '0.0.1',
+55 silly install resolved     homepage: 'https://github.com/traviswimer/grunt-resize-crop',
+55 silly install resolved     author:
+55 silly install resolved      { name: 'Travis Wimer',
+55 silly install resolved        email: 'npm@traviswimer.com',
+55 silly install resolved        url: 'http://traviswimer.com' },
+55 silly install resolved     repository:
+55 silly install resolved      { type: 'git',
+55 silly install resolved        url: 'git://github.com/traviswimer/grunt-resize-crop.git' },
+55 silly install resolved     bugs: { url: 'https://github.com/traviswimer/grunt-resize-crop/issues' },
+55 silly install resolved     licenses: [ [Object] ],
+55 silly install resolved     engines: { node: '>= 0.8.0' },
+55 silly install resolved     scripts: { test: 'grunt test' },
+55 silly install resolved     devDependencies:
+55 silly install resolved      { 'grunt-contrib-jshint': '~0.6.0',
+55 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+55 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+55 silly install resolved        grunt: '~0.4.4',
+55 silly install resolved        'grunt-cli': '~0.1.13',
+55 silly install resolved        'image-size': '~0.2.2',
+55 silly install resolved        'grunt-contrib-watch': '~0.6.1' },
+55 silly install resolved     peerDependencies: { grunt: '~0.4.4' },
+55 silly install resolved     keywords: [ 'gruntplugin', 'images', 'resize', 'crop' ],
+55 silly install resolved     dependencies: { 'resize-crop': '0.0.3', 'deep-extend': '~0.2.8' },
+55 silly install resolved     _id: 'grunt-resize-crop@0.0.1',
+55 silly install resolved     dist:
+55 silly install resolved      { shasum: '7c602fdb4921c2f6f79690a2dec9a2e429d18e27',
+55 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-resize-crop/-/grunt-resize-crop-0.0.1.tgz' },
+55 silly install resolved     _from: 'grunt-resize-crop@latest',
+55 silly install resolved     _npmVersion: '1.3.25',
+55 silly install resolved     _npmUser: { name: 'traviswimer', email: 'npm@traviswimer.com' },
+55 silly install resolved     maintainers: [ [Object] ],
+55 silly install resolved     directories: {},
+55 silly install resolved     _shasum: '7c602fdb4921c2f6f79690a2dec9a2e429d18e27',
+55 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-resize-crop/-/grunt-resize-crop-0.0.1.tgz',
+55 silly install resolved     readme: 'ERROR: No README data found!' } ]
+56 info install grunt-resize-crop@0.0.1 into /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+57 info installOne grunt-resize-crop@0.0.1
+58 verbose installOne of grunt-resize-crop to /Users/DanKim/Documents/build_porfolio/Project_Portfolio not in flight; installing
+59 verbose correctMkdir /Users/DanKim/.npm/_locks correctMkdir not in flight; initializing
+60 verbose lock using /Users/DanKim/.npm/_locks/grunt-resize-crop-7c77394a67d27201.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+61 silly install write writing grunt-resize-crop 0.0.1 to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+62 verbose unbuild node_modules/grunt-resize-crop
+63 info preuninstall grunt-resize-crop@0.0.1
+64 info uninstall grunt-resize-crop@0.0.1
+65 verbose unbuild rmStuff grunt-resize-crop@0.0.1 from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules
+66 info postuninstall grunt-resize-crop@0.0.1
+67 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop is being purged from base /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+68 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+69 silly vacuum-fs purging /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+70 silly vacuum-fs quitting because other entries in /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules
+71 verbose tar unpack /Users/DanKim/.npm/grunt-resize-crop/0.0.1/package.tgz
+72 verbose tar unpacking to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+73 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop is being purged
+74 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry .npmignore
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry Gruntfile.js
+80 silly gunzTarPerm extractEntry .jshintrc
+81 silly gunzTarPerm extractEntry .travis.yml
+82 silly gunzTarPerm extractEntry LICENSE-MIT
+83 silly gunzTarPerm extractEntry tasks/resize_crop.js
+84 silly gunzTarPerm extractEntry test/resize_crop_test.js
+85 silly gunzTarPerm extractEntry test/images/1500x3000.png
+86 silly gunzTarPerm extractEntry test/images/3000x1500.png
+87 silly gunzTarPerm extractEntry test/images/3000x3000.png
+88 verbose write writing to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/package.json
+89 info preinstall grunt-resize-crop@0.0.1
+90 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/package.json
+91 silly prepareForInstallMany adding resize-crop@0.0.3 from grunt-resize-crop dependencies
+92 silly prepareForInstallMany adding deep-extend@~0.2.8 from grunt-resize-crop dependencies
+93 silly prepareForInstallMany adding grunt@~0.4.4 from grunt-resize-crop peerDependencies
+94 warn peerDependencies The peer dependency grunt@~0.4.4 included from grunt-resize-crop will no
+95 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+96 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+97 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/package.json
+98 silly cache add args [ 'resize-crop@0.0.3', null ]
+99 verbose cache add spec resize-crop@0.0.3
+100 silly cache add args [ 'deep-extend@~0.2.8', null ]
+101 verbose cache add spec deep-extend@~0.2.8
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'resize-crop@0.0.3',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'resize-crop',
+102 silly cache add   rawSpec: '0.0.3',
+102 silly cache add   spec: '0.0.3',
+102 silly cache add   type: 'version' }
+103 silly addNamed resize-crop@0.0.3
+104 verbose addNamed "0.0.3" is a plain semver version for resize-crop
+105 silly mapToRegistry name resize-crop
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'resize-crop',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   name: 'resize-crop',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/resize-crop
+110 verbose addNameVersion registry:https://registry.npmjs.org/resize-crop not in flight; fetching
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'deep-extend@~0.2.8',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'deep-extend',
+111 silly cache add   rawSpec: '~0.2.8',
+111 silly cache add   spec: '>=0.2.8 <0.3.0',
+111 silly cache add   type: 'range' }
+112 silly addNamed deep-extend@>=0.2.8 <0.3.0
+113 verbose addNamed ">=0.2.8 <0.3.0" is a valid semver range for deep-extend
+114 silly addNameRange { name: 'deep-extend', range: '>=0.2.8 <0.3.0', hasData: false }
+115 silly mapToRegistry name deep-extend
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'deep-extend',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   name: 'deep-extend',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://registry.npmjs.org/deep-extend
+120 verbose addNameRange registry:https://registry.npmjs.org/deep-extend not in flight; fetching
+121 verbose request uri https://registry.npmjs.org/resize-crop
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 17:12:55
+124 verbose etag "CB8ONU9QT2O3GHYD42U0J6AT"
+125 http request GET https://registry.npmjs.org/resize-crop
+126 verbose request uri https://registry.npmjs.org/deep-extend
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 17:12:55
+129 verbose etag "8UA0ZMW394DQ98HD0QDEKHLTH"
+130 http request GET https://registry.npmjs.org/deep-extend
+131 http 304 https://registry.npmjs.org/resize-crop
+132 verbose headers { date: 'Wed, 20 Jul 2016 08:12:54 GMT',
+132 verbose headers   via: '1.1 varnish',
+132 verbose headers   'cache-control': 'max-age=300',
+132 verbose headers   etag: '"CB8ONU9QT2O3GHYD42U0J6AT"',
+132 verbose headers   age: '48',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+132 verbose headers   'x-cache': 'HIT',
+132 verbose headers   'x-cache-hits': '1',
+132 verbose headers   'x-timer': 'S1469002374.963999,VS0,VE0',
+132 verbose headers   vary: 'Accept-Encoding' }
+133 silly get cb [ 304,
+133 silly get   { date: 'Wed, 20 Jul 2016 08:12:54 GMT',
+133 silly get     via: '1.1 varnish',
+133 silly get     'cache-control': 'max-age=300',
+133 silly get     etag: '"CB8ONU9QT2O3GHYD42U0J6AT"',
+133 silly get     age: '48',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-served-by': 'cache-nrt6125-NRT',
+133 silly get     'x-cache': 'HIT',
+133 silly get     'x-cache-hits': '1',
+133 silly get     'x-timer': 'S1469002374.963999,VS0,VE0',
+133 silly get     vary: 'Accept-Encoding' } ]
+134 verbose etag https://registry.npmjs.org/resize-crop from cache
+135 verbose get saving resize-crop to /Users/DanKim/.npm/registry.npmjs.org/resize-crop/.cache.json
+136 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+137 silly cache afterAdd resize-crop@0.0.3
+138 verbose afterAdd /Users/DanKim/.npm/resize-crop/0.0.3/package/package.json not in flight; writing
+139 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+140 verbose afterAdd /Users/DanKim/.npm/resize-crop/0.0.3/package/package.json written
+141 http 304 https://registry.npmjs.org/deep-extend
+142 verbose headers { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+142 verbose headers   via: '1.1 varnish',
+142 verbose headers   'cache-control': 'max-age=300',
+142 verbose headers   etag: '"8UA0ZMW394DQ98HD0QDEKHLTH"',
+142 verbose headers   age: '117',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+142 verbose headers   'x-cache': 'HIT',
+142 verbose headers   'x-cache-hits': '1',
+142 verbose headers   'x-timer': 'S1469002375.235809,VS0,VE0',
+142 verbose headers   vary: 'Accept-Encoding' }
+143 silly get cb [ 304,
+143 silly get   { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     'cache-control': 'max-age=300',
+143 silly get     etag: '"8UA0ZMW394DQ98HD0QDEKHLTH"',
+143 silly get     age: '117',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-nrt6132-NRT',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '1',
+143 silly get     'x-timer': 'S1469002375.235809,VS0,VE0',
+143 silly get     vary: 'Accept-Encoding' } ]
+144 verbose etag https://registry.npmjs.org/deep-extend from cache
+145 verbose get saving deep-extend to /Users/DanKim/.npm/registry.npmjs.org/deep-extend/.cache.json
+146 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+147 silly addNameRange number 2 { name: 'deep-extend', range: '>=0.2.8 <0.3.0', hasData: true }
+148 silly addNameRange versions [ 'deep-extend',
+148 silly addNameRange   [ '0.2.0',
+148 silly addNameRange     '0.2.1',
+148 silly addNameRange     '0.2.2',
+148 silly addNameRange     '0.2.4',
+148 silly addNameRange     '0.2.5',
+148 silly addNameRange     '0.2.6',
+148 silly addNameRange     '0.2.7',
+148 silly addNameRange     '0.2.8',
+148 silly addNameRange     '0.2.9',
+148 silly addNameRange     '0.2.10',
+148 silly addNameRange     '0.2.11',
+148 silly addNameRange     '0.3.0',
+148 silly addNameRange     '0.3.1',
+148 silly addNameRange     '0.3.2',
+148 silly addNameRange     '0.3.3',
+148 silly addNameRange     '0.4.0',
+148 silly addNameRange     '0.4.1' ] ]
+149 silly addNamed deep-extend@0.2.11
+150 verbose addNamed "0.2.11" is a plain semver version for deep-extend
+151 silly cache afterAdd deep-extend@0.2.11
+152 verbose afterAdd /Users/DanKim/.npm/deep-extend/0.2.11/package/package.json not in flight; writing
+153 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+154 verbose afterAdd /Users/DanKim/.npm/deep-extend/0.2.11/package/package.json written
+155 silly install resolved [ { name: 'resize-crop',
+155 silly install resolved     description: 'Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.',
+155 silly install resolved     version: '0.0.3',
+155 silly install resolved     homepage: 'https://github.com/traviswimer/resize-crop.js',
+155 silly install resolved     author:
+155 silly install resolved      { name: 'Travis Wimer',
+155 silly install resolved        email: 'npm@traviswimer.com',
+155 silly install resolved        url: 'http://traviswimer.com' },
+155 silly install resolved     repository:
+155 silly install resolved      { type: 'git',
+155 silly install resolved        url: 'git+https://github.com/traviswimer/resize-crop.js.git' },
+155 silly install resolved     bugs: { url: 'https://github.com/traviswimer/resize-crop.js/issues' },
+155 silly install resolved     licenses: [ [Object] ],
+155 silly install resolved     engines: { node: '>= 0.8.0' },
+155 silly install resolved     main: 'src/resize-crop',
+155 silly install resolved     scripts: { test: 'grunt test', ci: 'grunt test --stack' },
+155 silly install resolved     devDependencies:
+155 silly install resolved      { 'grunt-contrib-jshint': '~0.6.0',
+155 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+155 silly install resolved        'grunt-env': '~0.4.1',
+155 silly install resolved        grunt: '~0.4.4',
+155 silly install resolved        'grunt-cli': '~0.1.13',
+155 silly install resolved        'image-size': '~0.2.1',
+155 silly install resolved        chai: '~1.9.0',
+155 silly install resolved        'grunt-mocha-test': '~0.10.0',
+155 silly install resolved        'grunt-not-constantinople': '0.0.2',
+155 silly install resolved        'grunt-coveralls': '~0.3.0',
+155 silly install resolved        'grunt-contrib-watch': '~0.6.0' },
+155 silly install resolved     keywords: [ 'images', 'resize', 'crop' ],
+155 silly install resolved     dependencies:
+155 silly install resolved      { imagemagick: '~0.1.3',
+155 silly install resolved        'deep-extend': '~0.2.8',
+155 silly install resolved        'image-size': '~0.2.1' },
+155 silly install resolved     _id: 'resize-crop@0.0.3',
+155 silly install resolved     dist:
+155 silly install resolved      { shasum: 'b230becca1b9f9246f6d14e8ce99d9930230636a',
+155 silly install resolved        tarball: 'https://registry.npmjs.org/resize-crop/-/resize-crop-0.0.3.tgz' },
+155 silly install resolved     _from: 'resize-crop@0.0.3',
+155 silly install resolved     _npmVersion: '1.3.25',
+155 silly install resolved     _npmUser: { name: 'traviswimer', email: 'npm@traviswimer.com' },
+155 silly install resolved     maintainers: [ [Object] ],
+155 silly install resolved     directories: {},
+155 silly install resolved     _shasum: 'b230becca1b9f9246f6d14e8ce99d9930230636a',
+155 silly install resolved     _resolved: 'https://registry.npmjs.org/resize-crop/-/resize-crop-0.0.3.tgz',
+155 silly install resolved     readme: 'ERROR: No README data found!' },
+155 silly install resolved   { name: 'deep-extend',
+155 silly install resolved     description: 'Recursive object extending.',
+155 silly install resolved     license: 'MIT',
+155 silly install resolved     version: '0.2.11',
+155 silly install resolved     homepage: 'https://github.com/unclechu/node-deep-extend',
+155 silly install resolved     repository:
+155 silly install resolved      { type: 'git',
+155 silly install resolved        url: 'git://github.com/unclechu/node-deep-extend.git' },
+155 silly install resolved     author:
+155 silly install resolved      { name: 'Viacheslav Lotsmanov',
+155 silly install resolved        email: 'lotsmanov89@gmail.com',
+155 silly install resolved        url: 'unclechu' },
+155 silly install resolved     contributors: [ [Object] ],
+155 silly install resolved     main: 'index',
+155 silly install resolved     engines: { node: '>=0.4' },
+155 silly install resolved     scripts: { test: 'mocha' },
+155 silly install resolved     devDependencies: { mocha: '~1.19.0', should: '~3.3.2' },
+155 silly install resolved     directories: { test: './test' },
+155 silly install resolved     bugs: { url: 'https://github.com/unclechu/node-deep-extend/issues' },
+155 silly install resolved     _id: 'deep-extend@0.2.11',
+155 silly install resolved     dist:
+155 silly install resolved      { shasum: '7a16ba69729132340506170494bc83f7076fe08f',
+155 silly install resolved        tarball: 'https://registry.npmjs.org/deep-extend/-/deep-extend-0.2.11.tgz' },
+155 silly install resolved     _from: 'deep-extend@>=0.2.8 <0.3.0',
+155 silly install resolved     _npmVersion: '1.4.6',
+155 silly install resolved     _npmUser: { name: 'unclechu', email: 'lotsmanov89@gmail.com' },
+155 silly install resolved     maintainers: [ [Object] ],
+155 silly install resolved     _shasum: '7a16ba69729132340506170494bc83f7076fe08f',
+155 silly install resolved     _resolved: 'https://registry.npmjs.org/deep-extend/-/deep-extend-0.2.11.tgz',
+155 silly install resolved     readme: 'ERROR: No README data found!' } ]
+156 info install resize-crop@0.0.3 into /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+157 info install deep-extend@0.2.11 into /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+158 info installOne resize-crop@0.0.3
+159 verbose installOne of resize-crop to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop not in flight; installing
+160 verbose correctMkdir /Users/DanKim/.npm/_locks correctMkdir not in flight; initializing
+161 info installOne deep-extend@0.2.11
+162 verbose installOne of deep-extend to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop not in flight; installing
+163 verbose correctMkdir /Users/DanKim/.npm/_locks correctMkdir not in flight; initializing
+164 verbose lock using /Users/DanKim/.npm/_locks/resize-crop-effc9447b335d480.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+165 silly install write writing resize-crop 0.0.3 to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+166 verbose lock using /Users/DanKim/.npm/_locks/deep-extend-b9f6c68594c1f27c.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+167 silly install write writing deep-extend 0.2.11 to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+168 verbose unbuild node_modules/grunt-resize-crop/node_modules/resize-crop
+169 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop is being purged from base /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+170 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+171 verbose unbuild node_modules/grunt-resize-crop/node_modules/deep-extend
+172 verbose tar unpack /Users/DanKim/.npm/resize-crop/0.0.3/package.tgz
+173 verbose tar unpacking to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+174 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop is being purged
+175 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend is being purged from base /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+178 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+179 verbose tar unpack /Users/DanKim/.npm/deep-extend/0.2.11/package.tgz
+180 verbose tar unpacking to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+181 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend is being purged
+182 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+183 silly gunzTarPerm modes [ '755', '644' ]
+184 silly gunzTarPerm extractEntry package.json
+185 silly gunzTarPerm extractEntry .npmignore
+186 silly gunzTarPerm extractEntry README.md
+187 silly gunzTarPerm extractEntry package.json
+188 silly gunzTarPerm extractEntry .npmignore
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm extractEntry Gruntfile.js
+191 silly gunzTarPerm extractEntry require_helper.js
+192 silly gunzTarPerm extractEntry LICENSE
+193 silly gunzTarPerm extractEntry index.js
+194 silly gunzTarPerm extractEntry LICENSE-MIT
+195 silly gunzTarPerm extractEntry .travis.yml
+196 silly gunzTarPerm extractEntry test/index.spec.js
+197 silly gunzTarPerm extractEntry test/mocha.opts
+198 silly gunzTarPerm extractEntry .coveralls.yml
+199 silly gunzTarPerm extractEntry .jshintrc
+200 silly gunzTarPerm extractEntry src/resize-crop.js
+201 silly gunzTarPerm extractEntry tests/require_helper.js
+202 silly gunzTarPerm extractEntry tests/images/1500x3000.png
+203 silly gunzTarPerm extractEntry tests/images/3000x1500.png
+204 silly gunzTarPerm extractEntry tests/images/3000x3000.png
+205 silly gunzTarPerm extractEntry tests/unit/imageChecker.js
+206 silly gunzTarPerm extractEntry tests/unit/resize-crop_test.js
+207 verbose write writing to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend/package.json
+208 info preinstall deep-extend@0.2.11
+209 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend/package.json
+210 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend/package.json
+211 silly install resolved []
+212 verbose about to build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+213 info build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+214 info linkStuff deep-extend@0.2.11
+215 silly linkStuff deep-extend@0.2.11 has /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules as its parent node_modules
+216 verbose linkBins deep-extend@0.2.11
+217 verbose linkMans deep-extend@0.2.11
+218 verbose rebuildBundles deep-extend@0.2.11
+219 info install deep-extend@0.2.11
+220 info postinstall deep-extend@0.2.11
+221 verbose unlock done using /Users/DanKim/.npm/_locks/deep-extend-b9f6c68594c1f27c.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/deep-extend
+222 verbose write writing to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/package.json
+223 info preinstall resize-crop@0.0.3
+224 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/package.json
+225 silly prepareForInstallMany adding imagemagick@~0.1.3 from resize-crop dependencies
+226 silly prepareForInstallMany adding image-size@~0.2.1 from resize-crop dependencies
+227 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/package.json
+228 silly cache add args [ 'imagemagick@~0.1.3', null ]
+229 verbose cache add spec imagemagick@~0.1.3
+230 silly cache add args [ 'image-size@~0.2.1', null ]
+231 verbose cache add spec image-size@~0.2.1
+232 silly cache add parsed spec Result {
+232 silly cache add   raw: 'imagemagick@~0.1.3',
+232 silly cache add   scope: null,
+232 silly cache add   name: 'imagemagick',
+232 silly cache add   rawSpec: '~0.1.3',
+232 silly cache add   spec: '>=0.1.3 <0.2.0',
+232 silly cache add   type: 'range' }
+233 silly addNamed imagemagick@>=0.1.3 <0.2.0
+234 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for imagemagick
+235 silly addNameRange { name: 'imagemagick', range: '>=0.1.3 <0.2.0', hasData: false }
+236 silly mapToRegistry name imagemagick
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'imagemagick',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   name: 'imagemagick',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npmjs.org/imagemagick
+241 verbose addNameRange registry:https://registry.npmjs.org/imagemagick not in flight; fetching
+242 silly cache add parsed spec Result {
+242 silly cache add   raw: 'image-size@~0.2.1',
+242 silly cache add   scope: null,
+242 silly cache add   name: 'image-size',
+242 silly cache add   rawSpec: '~0.2.1',
+242 silly cache add   spec: '>=0.2.1 <0.3.0',
+242 silly cache add   type: 'range' }
+243 silly addNamed image-size@>=0.2.1 <0.3.0
+244 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for image-size
+245 silly addNameRange { name: 'image-size', range: '>=0.2.1 <0.3.0', hasData: false }
+246 silly mapToRegistry name image-size
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'image-size',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   name: 'image-size',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npmjs.org/image-size
+251 verbose addNameRange registry:https://registry.npmjs.org/image-size not in flight; fetching
+252 verbose request uri https://registry.npmjs.org/imagemagick
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 17:12:55
+255 verbose etag "5CP4G9BZX7Y0LQ1RRRZOM8ZI3"
+256 http request GET https://registry.npmjs.org/imagemagick
+257 verbose request uri https://registry.npmjs.org/image-size
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 17:12:55
+260 verbose etag "BDN7MDM3QPMZUWJ02VMZBRRWH"
+261 http request GET https://registry.npmjs.org/image-size
+262 http 304 https://registry.npmjs.org/image-size
+263 verbose headers { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+263 verbose headers   via: '1.1 varnish',
+263 verbose headers   'cache-control': 'max-age=300',
+263 verbose headers   etag: '"BDN7MDM3QPMZUWJ02VMZBRRWH"',
+263 verbose headers   age: '118',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+263 verbose headers   'x-cache': 'HIT',
+263 verbose headers   'x-cache-hits': '1',
+263 verbose headers   'x-timer': 'S1469002375.442683,VS0,VE0',
+263 verbose headers   vary: 'Accept-Encoding' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+264 silly get     via: '1.1 varnish',
+264 silly get     'cache-control': 'max-age=300',
+264 silly get     etag: '"BDN7MDM3QPMZUWJ02VMZBRRWH"',
+264 silly get     age: '118',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-served-by': 'cache-nrt6132-NRT',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '1',
+264 silly get     'x-timer': 'S1469002375.442683,VS0,VE0',
+264 silly get     vary: 'Accept-Encoding' } ]
+265 verbose etag https://registry.npmjs.org/image-size from cache
+266 verbose get saving image-size to /Users/DanKim/.npm/registry.npmjs.org/image-size/.cache.json
+267 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+268 silly addNameRange number 2 { name: 'image-size', range: '>=0.2.1 <0.3.0', hasData: true }
+269 silly addNameRange versions [ 'image-size',
+269 silly addNameRange   [ '0.0.2',
+269 silly addNameRange     '0.0.3',
+269 silly addNameRange     '0.0.5',
+269 silly addNameRange     '0.1.0',
+269 silly addNameRange     '0.1.1',
+269 silly addNameRange     '0.1.2',
+269 silly addNameRange     '0.1.3',
+269 silly addNameRange     '0.1.4',
+269 silly addNameRange     '0.1.5',
+269 silly addNameRange     '0.1.6',
+269 silly addNameRange     '0.1.7',
+269 silly addNameRange     '0.1.10',
+269 silly addNameRange     '0.1.15',
+269 silly addNameRange     '0.0.16',
+269 silly addNameRange     '0.1.16',
+269 silly addNameRange     '0.1.17',
+269 silly addNameRange     '0.1.20',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.2.2',
+269 silly addNameRange     '0.2.3',
+269 silly addNameRange     '0.2.4',
+269 silly addNameRange     '0.2.5',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.3.1',
+269 silly addNameRange     '0.3.2',
+269 silly addNameRange     '0.3.3',
+269 silly addNameRange     '0.3.5',
+269 silly addNameRange     '0.4.0',
+269 silly addNameRange     '0.5.0' ] ]
+270 silly addNamed image-size@0.2.5
+271 verbose addNamed "0.2.5" is a plain semver version for image-size
+272 silly cache afterAdd image-size@0.2.5
+273 verbose afterAdd /Users/DanKim/.npm/image-size/0.2.5/package/package.json not in flight; writing
+274 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+275 verbose afterAdd /Users/DanKim/.npm/image-size/0.2.5/package/package.json written
+276 http 304 https://registry.npmjs.org/imagemagick
+277 verbose headers { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: '"5CP4G9BZX7Y0LQ1RRRZOM8ZI3"',
+277 verbose headers   age: '47',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '1',
+277 verbose headers   'x-timer': 'S1469002375.442842,VS0,VE0',
+277 verbose headers   vary: 'Accept-Encoding' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Wed, 20 Jul 2016 08:12:55 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: '"5CP4G9BZX7Y0LQ1RRRZOM8ZI3"',
+278 silly get     age: '47',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-nrt6125-NRT',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '1',
+278 silly get     'x-timer': 'S1469002375.442842,VS0,VE0',
+278 silly get     vary: 'Accept-Encoding' } ]
+279 verbose etag https://registry.npmjs.org/imagemagick from cache
+280 verbose get saving imagemagick to /Users/DanKim/.npm/registry.npmjs.org/imagemagick/.cache.json
+281 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+282 silly addNameRange number 2 { name: 'imagemagick', range: '>=0.1.3 <0.2.0', hasData: true }
+283 silly addNameRange versions [ 'imagemagick', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+284 silly addNamed imagemagick@0.1.3
+285 verbose addNamed "0.1.3" is a plain semver version for imagemagick
+286 silly cache afterAdd imagemagick@0.1.3
+287 verbose afterAdd /Users/DanKim/.npm/imagemagick/0.1.3/package/package.json not in flight; writing
+288 verbose correctMkdir /Users/DanKim/.npm correctMkdir not in flight; initializing
+289 verbose afterAdd /Users/DanKim/.npm/imagemagick/0.1.3/package/package.json written
+290 silly install resolved [ { name: 'image-size',
+290 silly install resolved     version: '0.2.5',
+290 silly install resolved     description: 'get dimensions of any image file',
+290 silly install resolved     main: 'lib/index.js',
+290 silly install resolved     engines: { node: '>=0.8.0' },
+290 silly install resolved     bin: { 'image-size': './bin/image-size' },
+290 silly install resolved     scripts: { test: 'make' },
+290 silly install resolved     repository:
+290 silly install resolved      { type: 'git',
+290 silly install resolved        url: 'git+ssh://git@github.com/netroy/image-size.git' },
+290 silly install resolved     keywords:
+290 silly install resolved      [ 'image',
+290 silly install resolved        'size',
+290 silly install resolved        'dimensions',
+290 silly install resolved        'resolution',
+290 silly install resolved        'width',
+290 silly install resolved        'height',
+290 silly install resolved        'png',
+290 silly install resolved        'jpeg',
+290 silly install resolved        'bmp',
+290 silly install resolved        'gif',
+290 silly install resolved        'psd',
+290 silly install resolved        'tiff',
+290 silly install resolved        'webp' ],
+290 silly install resolved     author:
+290 silly install resolved      { name: 'netroy',
+290 silly install resolved        email: 'aditya@netroy.in',
+290 silly install resolved        url: 'http://netroy.in/' },
+290 silly install resolved     license: 'MIT',
+290 silly install resolved     bugs: { url: 'https://github.com/netroy/image-size/issues' },
+290 silly install resolved     devDependencies:
+290 silly install resolved      { 'escomplex-js': '~0.1.0',
+290 silly install resolved        'expect.js': '~0.2.0',
+290 silly install resolved        glob: '~3.2.7',
+290 silly install resolved        jshint: '~2.3.0',
+290 silly install resolved        mocha: '~1.14.0',
+290 silly install resolved        sinon: '~1.7.3' },
+290 silly install resolved     homepage: 'https://github.com/netroy/image-size',
+290 silly install resolved     _id: 'image-size@0.2.5',
+290 silly install resolved     dist:
+290 silly install resolved      { shasum: '7cea13f49c191319722fadd961b9f30363eec88f',
+290 silly install resolved        tarball: 'https://registry.npmjs.org/image-size/-/image-size-0.2.5.tgz' },
+290 silly install resolved     _from: 'image-size@>=0.2.1 <0.3.0',
+290 silly install resolved     _npmVersion: '1.4.3',
+290 silly install resolved     _npmUser: { name: 'netroy', email: 'aditya@netroy.in' },
+290 silly install resolved     maintainers: [ [Object] ],
+290 silly install resolved     directories: {},
+290 silly install resolved     _shasum: '7cea13f49c191319722fadd961b9f30363eec88f',
+290 silly install resolved     _resolved: 'https://registry.npmjs.org/image-size/-/image-size-0.2.5.tgz',
+290 silly install resolved     readme: 'ERROR: No README data found!' },
+290 silly install resolved   { name: 'imagemagick',
+290 silly install resolved     description: 'A wrapper around the imagemagick cli',
+290 silly install resolved     version: '0.1.3',
+290 silly install resolved     author: { name: 'Rasmus Andersson', email: 'http://rsms.me/' },
+290 silly install resolved     licenses: [ 'MIT' ],
+290 silly install resolved     repository:
+290 silly install resolved      { type: 'git',
+290 silly install resolved        url: 'git+ssh://git@github.com/rsms/node-imagemagick.git' },
+290 silly install resolved     engine: [ 'node >=0.6' ],
+290 silly install resolved     main: 'imagemagick',
+290 silly install resolved     _id: 'imagemagick@0.1.3',
+290 silly install resolved     dist:
+290 silly install resolved      { shasum: '7483cea093b4d9f2e2f396857adc8821b537c56a',
+290 silly install resolved        tarball: 'https://registry.npmjs.org/imagemagick/-/imagemagick-0.1.3.tgz' },
+290 silly install resolved     _npmVersion: '1.1.59',
+290 silly install resolved     _npmUser: { name: 'rsms', email: 'rasmus@notion.se' },
+290 silly install resolved     maintainers: [ [Object] ],
+290 silly install resolved     directories: {},
+290 silly install resolved     _shasum: '7483cea093b4d9f2e2f396857adc8821b537c56a',
+290 silly install resolved     _resolved: 'https://registry.npmjs.org/imagemagick/-/imagemagick-0.1.3.tgz',
+290 silly install resolved     _from: 'imagemagick@>=0.1.3 <0.2.0',
+290 silly install resolved     bugs: { url: 'https://github.com/rsms/node-imagemagick/issues' },
+290 silly install resolved     readme: 'ERROR: No README data found!',
+290 silly install resolved     homepage: 'https://github.com/rsms/node-imagemagick#readme' } ]
+291 info install image-size@0.2.5 into /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+292 info install imagemagick@0.1.3 into /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+293 info installOne image-size@0.2.5
+294 verbose installOne of image-size to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop not in flight; installing
+295 verbose correctMkdir /Users/DanKim/.npm/_locks correctMkdir not in flight; initializing
+296 info installOne imagemagick@0.1.3
+297 verbose installOne of imagemagick to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop not in flight; installing
+298 verbose correctMkdir /Users/DanKim/.npm/_locks correctMkdir not in flight; initializing
+299 verbose lock using /Users/DanKim/.npm/_locks/image-size-8a06099548378e28.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+300 silly install write writing image-size 0.2.5 to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+301 verbose lock using /Users/DanKim/.npm/_locks/imagemagick-b0e5e3745befd915.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+302 silly install write writing imagemagick 0.1.3 to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+303 verbose unbuild node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+304 verbose unbuild node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+305 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size is being purged from base /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+306 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+307 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick is being purged from base /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+308 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+309 verbose tar unpack /Users/DanKim/.npm/image-size/0.2.5/package.tgz
+310 verbose tar unpacking to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+311 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size is being purged
+312 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+313 verbose tar unpack /Users/DanKim/.npm/imagemagick/0.1.3/package.tgz
+314 verbose tar unpacking to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+315 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick is being purged
+316 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+317 silly gunzTarPerm modes [ '755', '644' ]
+318 silly gunzTarPerm modes [ '755', '644' ]
+319 silly gunzTarPerm extractEntry package.json
+320 silly gunzTarPerm extractEntry package.json
+321 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+322 silly gunzTarPerm extractEntry .npmignore
+323 silly gunzTarPerm extractEntry LICENSE
+324 silly gunzTarPerm extractEntry .npmignore
+325 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+326 silly gunzTarPerm extractEntry README.md
+327 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+328 silly gunzTarPerm extractEntry Contributors.md
+329 silly gunzTarPerm extractEntry Readme.md
+330 silly gunzTarPerm extractEntry imagemagick.js
+331 silly gunzTarPerm modified mode [ 'imagemagick.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry test-crop.js
+333 silly gunzTarPerm modified mode [ 'test-crop.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry test.js
+335 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry bin/image-size
+337 silly gunzTarPerm extractEntry lib/detector.js
+338 silly gunzTarPerm extractEntry lib/index.js
+339 silly gunzTarPerm extractEntry lib/readUInt.js
+340 silly gunzTarPerm extractEntry lib/types.js
+341 silly gunzTarPerm extractEntry lib/types/bmp.js
+342 silly gunzTarPerm extractEntry lib/types/gif.js
+343 silly gunzTarPerm extractEntry lib/types/jpg.js
+344 silly gunzTarPerm extractEntry lib/types/png.js
+345 silly gunzTarPerm extractEntry lib/types/psd.js
+346 silly gunzTarPerm extractEntry lib/types/tiff.js
+347 silly gunzTarPerm extractEntry lib/types/webp.js
+348 verbose write writing to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick/package.json
+349 info preinstall imagemagick@0.1.3
+350 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick/package.json
+351 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick/package.json
+352 silly install resolved []
+353 verbose about to build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+354 info build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+355 info linkStuff imagemagick@0.1.3
+356 silly linkStuff imagemagick@0.1.3 has /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules as its parent node_modules
+357 verbose linkBins imagemagick@0.1.3
+358 verbose linkMans imagemagick@0.1.3
+359 verbose rebuildBundles imagemagick@0.1.3
+360 info install imagemagick@0.1.3
+361 info postinstall imagemagick@0.1.3
+362 verbose unlock done using /Users/DanKim/.npm/_locks/imagemagick-b0e5e3745befd915.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/imagemagick
+363 verbose write writing to /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size/package.json
+364 info preinstall image-size@0.2.5
+365 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size/package.json
+366 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size/package.json
+367 silly install resolved []
+368 verbose about to build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+369 info build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+370 info linkStuff image-size@0.2.5
+371 silly linkStuff image-size@0.2.5 has /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules as its parent node_modules
+372 verbose linkBins image-size@0.2.5
+373 verbose link bins [ { 'image-size': './bin/image-size' },
+373 verbose link bins   '/Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/.bin',
+373 verbose link bins   false ]
+374 verbose linkMans image-size@0.2.5
+375 verbose rebuildBundles image-size@0.2.5
+376 silly gentlyRm /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/.bin/image-size is being purged
+377 verbose gentlyRm don't care about contents; nuking /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/.bin/image-size
+378 info install image-size@0.2.5
+379 info postinstall image-size@0.2.5
+380 verbose unlock done using /Users/DanKim/.npm/_locks/image-size-8a06099548378e28.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop/node_modules/image-size
+381 verbose about to build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+382 info build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+383 info linkStuff resize-crop@0.0.3
+384 silly linkStuff resize-crop@0.0.3 has /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules as its parent node_modules
+385 verbose linkBins resize-crop@0.0.3
+386 verbose linkMans resize-crop@0.0.3
+387 verbose rebuildBundles resize-crop@0.0.3
+388 verbose rebuildBundles [ '.bin', 'image-size', 'imagemagick' ]
+389 info install resize-crop@0.0.3
+390 info postinstall resize-crop@0.0.3
+391 verbose unlock done using /Users/DanKim/.npm/_locks/resize-crop-effc9447b335d480.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/node_modules/resize-crop
+392 verbose about to build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+393 info build /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+394 info linkStuff grunt-resize-crop@0.0.1
+395 silly linkStuff grunt-resize-crop@0.0.1 has /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules as its parent node_modules
+396 verbose linkBins grunt-resize-crop@0.0.1
+397 verbose linkMans grunt-resize-crop@0.0.1
+398 verbose rebuildBundles grunt-resize-crop@0.0.1
+399 verbose rebuildBundles [ 'deep-extend', 'resize-crop' ]
+400 info install grunt-resize-crop@0.0.1
+401 info postinstall grunt-resize-crop@0.0.1
+402 verbose readDependencies loading dependencies from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/package.json
+403 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt/package.json
+404 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-contrib-clean/package.json
+405 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-contrib-copy/package.json
+406 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-mkdir/package.json
+407 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop/package.json
+408 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-responsive-images/package.json
+409 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp/package.json
+410 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-clean-css/package.json
+411 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-rename/package.json
+412 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/gulp-uglify/package.json
+413 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/npm-debug.log/package.json
+414 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/.bin/grunt/package.json
+415 verbose targetResolver reading package data from /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/.bin/gulp/package.json
+416 verbose already installed skipping grunt@~0.4.4 /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+417 silly install resolved []
+418 verbose unlock done using /Users/DanKim/.npm/_locks/grunt-resize-crop-7c77394a67d27201.lock for /Users/DanKim/Documents/build_porfolio/Project_Portfolio/node_modules/grunt-resize-crop
+419 verbose validateInstall loading /Users/DanKim/Documents/build_porfolio/Project_Portfolio/package.json for validation
+420 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+420 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+420 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+420 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+420 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+420 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+420 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+420 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+420 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+420 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+420 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+421 verbose cwd /Users/DanKim/Documents/build_porfolio/Project_Portfolio
+422 error Darwin 15.5.0
+423 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-resize-crop"
+424 error node v4.4.7
+425 error npm  v2.15.8
+426 error code EPEERINVALID
+427 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+427 error peerinvalid Peer grunt-mkdir@1.0.0 wants grunt@>=0.4.0
+427 error peerinvalid Peer grunt-resize-crop@0.0.1 wants grunt@~0.4.4
+427 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+428 verbose exit [ 1, true ]
