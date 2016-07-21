@@ -22,12 +22,15 @@ body {
 }
 
 .header {
-	background-image: url(../images/juniorfront-end-2280_large_2x.png);
+	background-image: url(../images/juniorfront-end-800_medium_1x.png);
+	background-image: image-set(url(../images/juniorfront-end-800_medium_1x.png) 1x, url(../images/juniorfront-end-1600_medium_2x.png) 2x);
+	background-image: -webkit-image-set(url(../images/juniorfront-end-800_medium_1x.png) 1x, url(../images/juniorfront-end-1600_medium_2x.png) 2x);
 	background-size: cover;
 	background-position: center center;
 	position: relative;
 	overflow: hidden;
-	height: 60vh;
+	transition: all 0.3s;
+	height: 50vh;
 	margin: 0;
 }
 

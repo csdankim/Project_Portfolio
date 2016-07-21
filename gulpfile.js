@@ -14,6 +14,7 @@ gulp.task('scripts', function(){
 gulp.task('styles', function(){
 	gulp.src('css/*.css')
 		.pipe(cleanCSS())
+    .pipe(rename({ suffix: '.min'}))
 		.pipe(gulp.dest('minCSS'));
 });
 
