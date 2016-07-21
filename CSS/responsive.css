@@ -1,45 +1,36 @@
 @media screen and (max-width: 600px) {
-	.box {
+	section, footer {
 		text-align: center;
 	}
-}
+
+	.header {
+		height: 95vh;
+		width: auto;
+		margin-top: 0;
+	}
 
 @media screen and (min-width: 601px) {
-	header, section, footer {
+	section, footer {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
 	}
-
-	header {
-		margin-top: 4em;
-		margin-bottom: 0;
-	}
-
+	
 	h3{
 		margin: 0 0 12px 0;
 	}
-
+	
 	.title-logo {
-		width: 20%;
+		
 	}
 
 	svg {
-		margin-top: 8px;
-		vertical-align: top;
 	}
 
 	.title {
-		width: 80%;
-		text-align: right;
-		text-transform: uppercase;
-		vertical-align: top;
-		margin-top: 0;
+
 	}
-	
-	.featured {
-		text-align: center;
-	}
+
 
 	.title2 {
 		text-align: left;
@@ -62,10 +53,6 @@
 		margin-right: 0;
 		width: calc((100% - 20px)/3);
 	}
-
-	.img-responsive {
-		max-width: 100%;
-	}
 	
 	.viewSource {
 		order: 0;
@@ -85,7 +72,7 @@
 }
 
 @media screen and (min-width: 800px) {
-	header, section, footer {
+	section, footer {
 		max-width: 1140px;
 		margin-left: auto;
 		margin-right: auto;

@@ -17,22 +17,22 @@ module.exports = function(grunt) {
             /*
             Change these:
             */
-            width: 760,
-            suffix: "_2x",
+            width: 2280,
+            suffix: "_large_2x",
             quality: 30
           },{
-            width: 380,
-            suffix: "_1x",
-            quality: 30
-          }/*,{
-            width: 600,
-            suffix: "_small_2x",
+            width: 1140,
+            suffix: "_large_1x",
             quality: 30
           },{
-            width: ,
-            suffix: "_small_1x",
+            width: 800,
+            suffix: "_medium",
             quality: 30
-          }*/]
+          },{
+            width: 400,
+            suffix: "_small",
+            quality: 30
+          }]
         },
 
         /*
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
         */
         files: [{
           expand: true,
-          src: ['online_resume.png'],
+          src: ['juniorfront-end.png'],
           cwd: 'images_src/',
           dest: 'images/'
         }]
