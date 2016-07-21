@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	margin: 0;
 }
 
 * {
@@ -11,35 +12,64 @@ body {
 	width: 100%;
 }
 
-header, section, footer {
+.featured, .social {
 	margin: 2em auto;
 }
 
 
 .img-responsive {
-	width: 100%;
+	max-width: 100%;
 }
 
-header {
-	border-bottom: 3px solid #7d97ad;
+.header {
+	background-image: url(../images/juniorfront-end-2280_large_2x.png);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	overflow: hidden;
+	height: 60vh;
+	margin: 0;
+}
+
+svg {
+	width: 10vw;
+}
+
+.title-logo {
+	margin: 2em;
+	/*margin-top: 50%;
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 0;*/
+}
+
+.title {
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+	padding: 1em;
+}
+
+h1 {
+	font-size: 8vw;
+	font-weight: 300;
+	margin: 0 0 0 10px;
+}
+
+.title > h3 {
+	font-size: 3vw;
+	font-weight: 400;
+	margin: 0 0 0 13px;
 }
 
 .featured {
 	border-bottom: 1px solid #7d97ad;
 	margin-bottom: 0;
+	margin-top: 5em;
 	padding-bottom: 1em;
-}
-
-
-svg {
-	width: 7vw;
-}
-
-.title {
-	text-transform: uppercase;
-	margin-top: 1em;
-	margin-bottom: 2em;
-	color: #2d3c49;
 }
 
 .title2 {
@@ -47,21 +77,9 @@ svg {
 	font-weight: 400;
 }
 
-h1 {
-	font-size: 5vw;
-	font-weight: 300;
-	margin: 0;
-}
-
 h2 {
 	margin: 0.5em 0 0.5em 0;
 	font-size: 4vw;
-	font-weight: 400;
-}
-
-.title > h3 {
-	margin: 0;
-	font-size: 2vw;
 	font-weight: 400;
 }
 
@@ -86,9 +104,4 @@ h2 {
 	width: 100%;
 	padding-top: 1em;
 }
-
-.front-end {
-	height: auto;
-}
-
 

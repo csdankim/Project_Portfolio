@@ -1,19 +1,22 @@
 @media screen and (max-width: 600px) {
-	.box {
+	.header {
+		height: 95vh;
+		width: auto;
+	}	
+
+	.featured, .social {
 		text-align: center;
 	}
 }
 
 @media screen and (min-width: 601px) {
-	header, section, footer {
+	section, footer {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
 	}
 
 	header {
-		margin-top: 4em;
-		margin-bottom: 0;
 	}
 
 	h3{
@@ -21,20 +24,15 @@
 	}
 
 	.title-logo {
-		width: 20%;
+
 	}
 
 	svg {
-		margin-top: 8px;
-		vertical-align: top;
+
 	}
 
 	.title {
-		width: 80%;
-		text-align: right;
-		text-transform: uppercase;
-		vertical-align: top;
-		margin-top: 0;
+
 	}
 	
 	.featured {
@@ -62,10 +60,6 @@
 		margin-right: 0;
 		width: calc((100% - 20px)/3);
 	}
-
-	.img-responsive {
-		max-width: 100%;
-	}
 	
 	.viewSource {
 		order: 0;
@@ -85,28 +79,26 @@
 }
 
 @media screen and (min-width: 800px) {
-	header, section, footer {
+	section, footer {
 		max-width: 1140px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	h1{
-		font-size: 50px;
-		margin-bottom: 0;
-		margin-top: 0;
+		font-size: 60px;
 	}
 	
 	.title > h3 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	svg {
-		width: 80px;
+		width: 100px;
 	}
 
 	.title2 {
-		font-size: 35px;
+		font-size: 40px;
 	}
 
 	.title3 {
