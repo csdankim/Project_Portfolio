@@ -25,12 +25,12 @@ module.exports = function(grunt) {
             suffix: "_large_1x",
             quality: 30
           },{*/
-            width: 800,
-            suffix: "_medium_1x",
+            width: 380,
+            suffix: "_1x",
             quality: 30
           },{
-            width: 1600,
-            suffix: "_medium_2x",
+            width: 760,
+            suffix: "_2x",
             quality: 30
           }]
         },
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
         */
         files: [{
           expand: true,
-          src: ['juniorfront-end.png'],
+          src: ['portfolio.png'],
           cwd: 'images_src/',
           dest: 'images/'
         }]
