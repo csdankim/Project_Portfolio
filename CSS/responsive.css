@@ -2,7 +2,6 @@
 	.header {
 		height: 95vh;
 		width: auto;
-		margin-top: 0;
 	}	
 
 	.featured, .social {
@@ -10,10 +9,38 @@
 	}
 
 @media screen and (min-width: 601px) {
-	.featured {
+	section, footer {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
+	}
+
+	header {
+	}
+
+	h3{
+		margin: 0 0 12px 0;
+	}
+
+	.title-logo {
+
+	}
+
+	svg {
+
+	}
+
+	.title {
+
+	}
+	
+	.featured {
+		text-align: center;
+	}
+
+	.title2 {
+		text-align: left;
+		padding-left: 10px;
 	}
 
 	.project1 {
@@ -49,4 +76,33 @@
 		border-bottom: none;
 		font-size: 18px;
 	}
+}
+
+@media screen and (min-width: 800px) {
+	section, footer {
+		max-width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h1{
+		font-size: 60px;
+	}
+	
+	.title > h3 {
+		font-size: 25px;
+	}
+
+	svg {
+		width: 100px;
+	}
+
+	.title2 {
+		font-size: 40px;
+	}
+
+	.title3 {
+		font-size: 28px;
+	}	
+
 }

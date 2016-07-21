@@ -28,6 +28,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	height: 60vh;
+	margin: 0;
 }
 
 svg {
@@ -52,16 +53,27 @@ svg {
 	padding: 1em;
 }
 
+.title2 {
+	color: #7d97ad;
+	font-weight: 400;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+	padding: 1em;
+}
+
 h1 {
-	font-size: 5vw;
+	font-size: 8vw;
 	font-weight: 300;
 	margin: 0 0 0 10px;
 }
 
 .title > h3 {
-	font-size: 2vw;
+	font-size: 3vw;
 	font-weight: 400;
-	margin: 0 0 0 12px;
+	margin: 0 0 0 13px;
 }
 
 .featured {
