@@ -25,6 +25,7 @@ body {
 	background-image: url(../images/juniorfront-end-2280_large_2x.png);
 	background-size: cover;
 	background-position: center center;
+	position: relative;
 	overflow: hidden;
 	height: 60vh;
 	margin: 0;
@@ -44,17 +45,6 @@ svg {
 
 .title {
 	text-transform: uppercase;
-	background-color: rgba(0, 0, 0, 0.3);
-	position: absolute;
-	bottom: 0;
-	color: #fff;
-	width: 100%;
-	padding: 1em;
-}
-
-.title2 {
-	color: #7d97ad;
-	font-weight: 400;
 	background-color: rgba(0, 0, 0, 0.3);
 	position: absolute;
 	bottom: 0;
