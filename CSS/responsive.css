@@ -4,7 +4,8 @@
 		width: auto;
 	}	
 
-	.featured, .social {
+	.featured, 
+	.social {
 		text-align: center;
 	}
 }
@@ -16,23 +17,8 @@
 		width: 100%;
 	}
 
-	header {
-	}
-
 	h3{
 		margin: 0 0 12px 0;
-	}
-
-	.title-logo {
-
-	}
-
-	svg {
-
-	}
-
-	.title {
-
 	}
 	
 	.featured {
